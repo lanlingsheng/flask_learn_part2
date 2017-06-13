@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-__author__ = 'lenovo'
 
 
 from flask import Flask, render_template
