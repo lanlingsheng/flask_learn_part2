@@ -8,13 +8,15 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 class Config:
     SECRET_KEY = 'hard to guess string'
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
+    SQLALCHEMY_TRACK_MODIFICATIONS = True
     MAIL_SERVER = 'smtp.live.com'
-    MAIL_PORT = 587
-    MAIL_USER_TLS = True
-    MAIL_USERNAME = 'gaoyan0116@htmail.com'
+    MAIL_PORT = 25
+    MAIL_USE_TLS = True
+    MAIL_USE_SSL = False
+    MAIL_USERNAME = 'gaoyan0116@hotmail.com'
     MAIL_PASSWORD = 'gaoyan546=='
     FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
-    FLASKY_MAIL_SENDER = 'Flasky Admin <>'
+    FLASKY_MAIL_SENDER = 'Flasky Admin <gaoyan0116@hotmail.com>'
     FLASKY_ADMIN = '2467492608@qq.com'
 
     @staticmethod
