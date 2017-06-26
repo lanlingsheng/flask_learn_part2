@@ -14,7 +14,7 @@ class Config:
     MAIL_USE_TLS = True
     MAIL_USE_SSL = False
     MAIL_USERNAME = 'gaoyan0116@hotmail.com'
-    MAIL_PASSWORD = 'gaoyan546=='
+    MAIL_PASSWORD = '********'
     FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
     FLASKY_MAIL_SENDER = 'Flasky Admin <gaoyan0116@hotmail.com>'
     FLASKY_ADMIN = '2467492608@qq.com'
